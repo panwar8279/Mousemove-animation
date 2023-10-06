@@ -1,0 +1,47 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+:root{
+    cursor: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+  color: white;
+}
+
+body{ 
+    width: 100%;
+    height: 100vh;
+    margin: 0em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(5, 5, 5);
+}
+
+.swipe{
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: solid 0.2rem purple;
+
+    box-shadow: 
+    0.1rem 0.1rem 0.4rem rgb(0, 2, 128),
+    inset
+    0.1rem 0.1rem 1rem purple;
+
+    animation: roll 0.6s linear forwards;
+}
+
+@keyframes roll{
+    0%{ 
+        border: solid 0.1rem red;
+        transform: scale(0.1);}
+
+    50%{ 
+        border: solid 0.25rem purple;
+        transform: scale(1.4);}
+
+    100%{ 
+        border: solid 0.1rem rgb(35, 0, 234);
+        transform: scale(0.1);}
+}
