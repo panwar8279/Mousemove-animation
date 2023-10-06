@@ -1,5 +1,5 @@
 # Mouse Move Animation
-@ Description
+@ Description : 
 The Mouse Move Animation is a JavaScript-based interactive feature that enhances user engagement on your website or web application. This animation dynamically responds to the user's mouse movement, creating a visually appealing effect. As the user moves their cursor across the screen, elements or objects on the page follow the cursor's path, creating a captivating visual experience.
 
 # Key Features
